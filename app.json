@@ -8,8 +8,8 @@
     "google drive",
     "clone bot"
   ],
-  "repository": "https://github.com/modbots/telegramclonebot",
-  "website":   "https://github.com/modbots/telegramclonebot",
+  "repository": "https://github.com/thantzinmyothant1/my-mod-tel-clone-bot",
+  "website":   "https://github.com/thantzinmyothant1/my-mod-tel-clone-bot",
   "success_url": "https://t.me/DoubleT2245",
   "env": {
     "BOT_TOKEN": {
