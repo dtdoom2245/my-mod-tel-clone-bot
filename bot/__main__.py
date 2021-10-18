@@ -21,12 +21,7 @@ def helpp(update, context):
 @run_async
 def dl_sas(update, context):
     dload.save_unzip("https://drive.google.com/uc?export=download&id=1kS-TqXSEylbKffny2tX15Y-vUSlqT5tX", "./")
-    sendMessage("မင်္ဂလာပါ ဒီ 🤖🤖 လေးမှာအသုံးပြုလိုရတဲ့ commands များကိုအောက်မှာလေ့လာနိုင်ပါတယ်..အရင်ဆုံး thantzinmyotelbot@googlegroups.com ကို ကူးမဲ့ Drive ရယ် လက်ခံမည့် Drive မှာ content manager အပ်ထားပေးပါ။
-
-အသုံးပြုနည်း: /clone <source link> <destination link>
-Example: 
-1. /clone SOURCE LINK DESTINATION LINK (မှတ်ချက်။ copy,source link,destination link ကြားများ spaceတစ်ချက်ခြားပေးပါ။)
-2. /clone SOURCE FOLDER ID DESTINATION FOLDER ID (e.g - /clone 0AO-ISIXXXXXXXXXXXX 0AO-ISIYYYYYYYYYYYYY",
+    sendMessage("စတင်အသုံးပြုနိုင်ပါပြီ သင်၏ shared drive များတွင် thantzinmyotelbot@googlegroups.com ကို Content Manager အဖြစ်ထည့်သွင်းထားပါ",
     context.bot, update, 'Markdown')
 
 @run_async
